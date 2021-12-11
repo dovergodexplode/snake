@@ -4,7 +4,7 @@
  * It should be https://raw.githubusercontent.com/YOUR_USERNAME/REPOSITORY_NAME/BRANCH/ 
  * Note: Your repository needs to be public, which it should be anyway.
  */
-const baseUrl = 'https://raw.githubusercontent.com/skagenmacka/snake/main/';
+const baseUrl = 'https://raw.githubusercontent.com/dovergodexplode/snake/main/';
 
 /* Helper functions */
 function get(url, cb) {
@@ -95,13 +95,13 @@ function hexToFilter(hex) {
 
 /* Color changing mods */
 const orgColors = {
-    walls: '#578a34',
-    shadows: '#94bd46',
-    lightTiles: '#a2d149',
-    darkTiles: '#aad751',
+    walls: '#233067',
+    shadows: '#233067',
+    lightTiles: '#233067',
+    darkTiles: '#233067',
     
-    bar: '#4a752c',
-    text: '#fffff'
+    bar: '#233067',
+    text: '#6f1b25'
 }
 
 /* Overriding the css colors */
@@ -134,12 +134,12 @@ const colorProxy = {
 }
 
 var colors = new Proxy({
-    walls: '#578a34',
-    shadows: '#94bd46',
-    lightTiles: '#a2d149',
-    darkTiles: '#aad751',
+    walls: '#233067',
+    shadows: '#233067',
+    lightTiles: '#233067',
+    darkTiles: '#233067',
     
-    bar: '#4a752c',
+    bar: '#233067',
     text: '#fffff'
 }, colorProxy);
 
